@@ -1,0 +1,20 @@
+{
+  "name": "kalkulus-ai",
+  "version": "1.0.0",
+  "description": "Kalkulus AI CLI Chatbot",
+  "type": "module",
+  "main": "src/core.js",
+  "bin": {
+    "kalkulus": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node tests/comprehensive_suite.js"
+  },
+  "keywords": ["ai", "cli", "kalkulus", "ollama"],
+  "author": "Avadhoot Savle",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
